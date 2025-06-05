@@ -49,6 +49,12 @@ class Query extends Grammar
         'lock',
     ];
 
+
+    public function __construct($connection)
+    {
+        parent::__construct($connection);
+    }
+
     /**
      * Compile an update statement into SQL.
      *

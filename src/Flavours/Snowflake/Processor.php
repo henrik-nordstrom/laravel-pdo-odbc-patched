@@ -9,6 +9,23 @@ use Illuminate\Support\Str;
 
 class Processor extends BaseProcessor
 {
+    /**
+     * The connection instance.
+     *
+     * @var \Illuminate\Database\Connection
+     */
+    protected $connection;
+
+    /**
+     * Create a new processor instance.
+     *
+     * @param  \Illuminate\Database\Connection  $connection
+     * @return void
+     */
+    public function __construct($connection = null)
+    {
+        $this->connection = $connection;
+    }
     public static function wrapTable($tableName): string
     {
         if ($tableName instanceof Blueprint) {

@@ -46,6 +46,12 @@ class Schema extends BaseGrammar
      */
     protected $serials = ['bigInteger', 'integer', 'smallInteger'];
 
+
+    public function __construct($connection)
+    {
+        parent::__construct($connection);
+    }
+
     /**
      * Compile the query to determine the list of tables.
      *

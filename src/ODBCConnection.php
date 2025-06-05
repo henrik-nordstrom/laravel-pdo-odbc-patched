@@ -49,9 +49,9 @@ class ODBCConnection extends Connection
         $processor = $this->getConfig('options.processor');
 
         if ($processor) {
-            return new $processor();
+            return new $processor($this);
         }
 
-        return new Processor();
+        return new Processor($this);
     }
 }
