@@ -5,7 +5,7 @@ namespace Henriknordstrom\LaravelPdoOdbcPatched\Flavours\Snowflake;
 use Closure;
 use Exception;
 use Henriknordstrom\LaravelPdoOdbcPatched\Contracts\OdbcDriver;
-use LaravelPdoOdbc\ODBCConnector;
+use Henriknordstrom\LaravelPdoOdbcPatched\ODBCConnector;
 use PDO;
 
 /**

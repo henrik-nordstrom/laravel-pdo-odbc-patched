@@ -3,7 +3,7 @@
 namespace Henriknordstrom\LaravelPdoOdbcPatched\Flavours\Snowflake;
 
 use DateTimeInterface;
-use LaravelPdoOdbc\ODBCConnection;
+use Henriknordstrom\LaravelPdoOdbcPatched\ODBCConnection;
 use PDO;
 use PDOStatement;
 use Henriknordstrom\LaravelPdoOdbcPatched\Flavours\Snowflake\Processor;

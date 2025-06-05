@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelPdoOdbc;
+namespace Henriknordstrom\LaravelPdoOdbcPatched;
 
 use Closure;
 use Exception;

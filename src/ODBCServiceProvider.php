@@ -6,7 +6,7 @@ use Henriknordstrom\LaravelPdoOdbcPatched\Flavours\Snowflake\Connection;
 use Henriknordstrom\LaravelPdoOdbcPatched\Flavours\Snowflake\Connector as SnowflakeConnector;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\ServiceProvider;
-use LaravelPdoOdbc\ODBCConnector;
+use Henriknordstrom\LaravelPdoOdbcPatched\ODBCConnector;
 
 class ODBCServiceProvider extends ServiceProvider
 {
