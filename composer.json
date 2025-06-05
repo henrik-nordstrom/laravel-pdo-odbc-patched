@@ -1,0 +1,22 @@
+{
+    "name": "henriknordstrom/laravel-pdo-odbc-patched",
+    "description": "Laravel PDO ODBC with Laravel 12 fix",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Henriknordstrom\\LaravelPdoOdbcPatched\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Henrik Nordstrom",
+            "email": "henrik@webtractive.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=8.0",
+        "illuminate/database": "^12.0"
+    }
+}
