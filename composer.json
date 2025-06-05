@@ -3,6 +3,15 @@
     "description": "Laravel PDO ODBC with Laravel 12 fix",
     "type": "library",
     "license": "MIT",
+    "keywords": [
+        "laravel",
+        "laravel12",
+        "snowflake",
+        "odbc",
+        "pdo",
+        "driver",
+        "connection"
+    ],
     "autoload": {
         "psr-4": {
             "Henriknordstrom\\LaravelPdoOdbcPatched\\": "src/"
