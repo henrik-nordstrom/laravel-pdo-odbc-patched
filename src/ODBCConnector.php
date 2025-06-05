@@ -4,11 +4,11 @@ namespace LaravelPdoOdbc;
 
 use Closure;
 use Exception;
+use Henriknordstrom\LaravelPdoOdbcPatched\Contracts\OdbcDriver;
 use Illuminate\Database\Connectors\Connector;
 use Illuminate\Database\Connectors\ConnectorInterface;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Str;
-use LaravelPdoOdbc\Contracts\OdbcDriver;
 use PDO;
 
 class ODBCConnector extends Connector implements ConnectorInterface, OdbcDriver

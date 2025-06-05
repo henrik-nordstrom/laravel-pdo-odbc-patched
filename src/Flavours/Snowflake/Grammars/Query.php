@@ -1,14 +1,14 @@
 <?php
 
-namespace LaravelPdoOdbc\Flavours\Snowflake\Grammars;
+namespace Henriknordstrom\LaravelPdoOdbcPatched\Flavours\Snowflake\Grammars;
 
-use function is_array;
-
-use Illuminate\Support\Arr;
-use Illuminate\Support\Str;
+use Henriknordstrom\LaravelPdoOdbcPatched\Flavours\Snowflake\Concerns\GrammarHelper;
 use Illuminate\Database\Query\Builder;
 use Illuminate\Database\Query\Grammars\Grammar;
-use LaravelPdoOdbc\Flavours\Snowflake\Concerns\GrammarHelper;
+use Illuminate\Support\Arr;
+use Illuminate\Support\Str;
+
+use function is_array;
 
 class Query extends Grammar
 {

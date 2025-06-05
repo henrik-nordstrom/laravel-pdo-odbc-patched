@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelPdoOdbc\Contracts;
+namespace Henriknordstrom\LaravelPdoOdbcPatched\Contracts;
 
 use Closure;
 

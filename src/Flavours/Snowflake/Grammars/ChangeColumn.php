@@ -1,12 +1,12 @@
 <?php
 
-namespace LaravelPdoOdbc\Flavours\Snowflake\Grammars;
+namespace Henriknordstrom\LaravelPdoOdbcPatched\Flavours\Snowflake\Grammars;
 
-use RuntimeException;
-use Illuminate\Support\Fluent;
 use Illuminate\Database\Connection;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Schema\Grammars\Grammar;
+use Illuminate\Support\Fluent;
+use RuntimeException;
 
 /**
  * Changing actions:

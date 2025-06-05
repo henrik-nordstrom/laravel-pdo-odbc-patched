@@ -1,15 +1,17 @@
 <?php
 
-namespace LaravelPdoOdbc\Flavours\Snowflake;
+namespace Henriknordstrom\LaravelPdoOdbcPatched\Flavours\Snowflake;
 
+use DateTimeInterface;
+use LaravelPdoOdbc\ODBCConnection;
 use PDO;
 use PDOStatement;
+use Henriknordstrom\LaravelPdoOdbcPatched\Flavours\Snowflake\Processor;
+
 use function is_bool;
-use function is_null;
-use DateTimeInterface;
 use function is_float;
+use function is_null;
 use function is_string;
-use LaravelPdoOdbc\ODBCConnection;
 
 class Connection extends ODBCConnection
 {

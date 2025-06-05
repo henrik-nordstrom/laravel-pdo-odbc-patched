@@ -1,13 +1,14 @@
 <?php
 
-namespace LaravelPdoOdbc\Flavours\Snowflake\Concerns;
+namespace Henriknordstrom\LaravelPdoOdbcPatched\Flavours\Snowflake\Concerns;
 
-use function count;
-use Illuminate\Support\Str;
+use Henriknordstrom\LaravelPdoOdbcPatched\Flavours\Snowflake\Processor;
 use Illuminate\Database\Query\Expression;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Schema\ColumnDefinition;
-use LaravelPdoOdbc\Flavours\Snowflake\Processor;
+use Illuminate\Support\Str;
+
+use function count;
 
 /**
  * This code is shared between the Query and Schema grammar.

@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelPdoOdbc\Flavours\Snowflake\PDO;
+namespace Henriknordstrom\LaravelPdoOdbcPatched\Flavours\Snowflake\PDO;
 
 use PDO;
 use PDOStatement;

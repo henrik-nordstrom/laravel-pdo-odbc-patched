@@ -1,11 +1,11 @@
 <?php
 
-namespace LaravelPdoOdbc\Flavours\Snowflake;
+namespace Henriknordstrom\LaravelPdoOdbcPatched\Flavours\Snowflake;
 
-use Illuminate\Support\Str;
 use Illuminate\Database\Query\Builder;
-use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Query\Processors\Processor as BaseProcessor;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Str;
 
 class Processor extends BaseProcessor
 {

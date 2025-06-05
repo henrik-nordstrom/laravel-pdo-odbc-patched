@@ -22,7 +22,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "henriknordstrom\\LaravelPdoOdbcPatched\\SnowflakeServiceProvider"
+                "Henriknordstrom\\LaravelPdoOdbcPatched\\ODBCServiceProvider"
             ]
         }
     }

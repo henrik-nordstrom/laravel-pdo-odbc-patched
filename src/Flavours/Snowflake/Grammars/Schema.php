@@ -1,17 +1,19 @@
 <?php
 
-namespace LaravelPdoOdbc\Flavours\Snowflake\Grammars;
+namespace Henriknordstrom\LaravelPdoOdbcPatched\Flavours\Snowflake\Grammars;
 
+use Henriknordstrom\LaravelPdoOdbcPatched\Flavours\Snowflake\Concerns\GrammarHelper;
 use Illuminate\Database\Connection;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Schema\Grammars\Grammar as BaseGrammar;
 use Illuminate\Support\Fluent;
-use LaravelPdoOdbc\Flavours\Snowflake\Concerns\GrammarHelper;
 use RuntimeException;
+
 use function in_array;
 use function is_float;
 use function is_int;
 use function is_null;
+
 use const FILTER_VALIDATE_BOOLEAN;
 
 /**

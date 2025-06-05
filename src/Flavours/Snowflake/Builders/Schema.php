@@ -1,12 +1,13 @@
 <?php
 
-namespace LaravelPdoOdbc\Flavours\Snowflake\Builders;
+namespace Henriknordstrom\LaravelPdoOdbcPatched\Flavours\Snowflake\Builders;
 
+use Henriknordstrom\LaravelPdoOdbcPatched\Flavours\Snowflake\Concerns\GrammarHelper;
+use Illuminate\Database\Schema\Builder as BaseBuilder;
 use LogicException;
+
 use function count;
 use function in_array;
-use Illuminate\Database\Schema\Builder as BaseBuilder;
-use LaravelPdoOdbc\Flavours\Snowflake\Concerns\GrammarHelper;
 
 class Schema extends BaseBuilder
 {
