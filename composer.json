@@ -18,5 +18,12 @@
     "require": {
         "php": ">=8.0",
         "illuminate/database": "^12.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "henriknordstrom\\LaravelPdoOdbcPatched\\SnowflakeServiceProvider"
+            ]
+        }
     }
 }
