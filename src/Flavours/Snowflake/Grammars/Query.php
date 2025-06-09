@@ -49,7 +49,7 @@ class Query extends Grammar
         'lock',
     ];
 
-
+    protected $tablePrefix = '';
     public function __construct($connection)
     {
         parent::__construct($connection);
